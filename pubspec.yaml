@@ -1,0 +1,22 @@
+name: ai_notes_app
+description: AI-powered notes app with Riverpod and optional OpenAI summarization.
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  http: ^1.2.2
+  path_provider: ^2.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

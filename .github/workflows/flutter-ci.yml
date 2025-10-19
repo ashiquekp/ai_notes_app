@@ -21,7 +21,9 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: 'stable'   # pin to stable for reproducibility
+          flutter-version: '3.35.4'   # pin to stable for reproducibility
+          channel: 'stable'
+          architecture: x64
 
       - name: Install deps
         run: flutter pub get

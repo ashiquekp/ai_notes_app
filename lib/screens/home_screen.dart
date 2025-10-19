@@ -58,7 +58,7 @@ class HomeScreen extends ConsumerWidget {
             TextField(
               decoration: const InputDecoration(
                 prefixIcon: Icon(Icons.search),
-                hintText: "Search notes....",
+                hintText: "Search notes...",
               ),
               onChanged: (v) => ref.read(queryProvider.notifier).state = v,
             ),

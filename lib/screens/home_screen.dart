@@ -29,7 +29,7 @@ class HomeScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("AI Notes"),
+        title: const Text("AI Notes."),
         actions: [
           IconButton(
             icon: const Icon(Icons.brightness_6),

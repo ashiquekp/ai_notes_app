@@ -32,7 +32,7 @@ class HomeScreen extends ConsumerWidget {
         title: const Text("AI Notes."),
         actions: [
           IconButton(
-            icon: const Icon(Icons.brightness_6),
+            icon: const Icon(Icons.brightness_4_outlined),
             onPressed: () {},
           ),
         ],

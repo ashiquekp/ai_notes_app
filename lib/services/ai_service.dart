@@ -11,7 +11,7 @@ class AIService {
       // Fallback: simple local "summary"
       final trimmed = text.trim();
       if (trimmed.length <= 200) return trimmed;
-      return trimmed.substring(0, 200) + '...';
+      return '${trimmed.substring(0, 200)}...';
     }
     final body = {
       "model": "gpt-4o-mini",
